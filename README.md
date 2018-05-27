@@ -1,5 +1,5 @@
 # smartbasic_CLI_flasher
-A tool to flash your module with CLI (tested only on RM186
+A tool to flash your module with CLI (tested only on RM186)
 Just launch the python file, and press enter every time you want to reflash your module.
 Todo: un-hardcode the values so to get more flexibility
 
