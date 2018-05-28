@@ -1,6 +1,6 @@
 # smartbasic_CLI_flasher
-A tool to flash your module with CLI (tested only on RM186 with python 2.7 on Linux)
-You must edit the following values directly inside of the python file:  
+A tool to flash your module with CLI (tested only on RM186 with python 2.7 on Linux)  
+Usage: You must edit the following values directly inside of the python file:  
 -Source file's path  
 -Source file's name  
 -Compiler 's path  
