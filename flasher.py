@@ -57,7 +57,7 @@ while 1 :
 		out += ser.read(1)
 		it=it+1
 	uwcfile=open(path+filename+".uwc").read()
-	ser.write("AT+DEL \""+filename+"\" +\x0d")
+	ser.write("AT+DEL \""+filename+"\"\x0d")
 	waitForSeq("\x0a\x30\x30\x0d")
 	ser.write("AT+FOW \""+filename+"\"\x0d")
 	waitForSeq("\x0a\x30\x30\x0d")
