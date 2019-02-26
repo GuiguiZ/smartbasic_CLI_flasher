@@ -6,6 +6,7 @@ Usage: You must edit the following values directly inside of the python file:
 -Compiler 's path  
 -Serial interface's path  
 Once this done, just launch the python file, and press enter every time you want to reflash your module.
+
 Todo: un-hardcode the values so to get more flexibility
 
 Other requirements: You must have the XCOMPILER provided with laird firmware files, available at Laird's website
